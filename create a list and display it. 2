@@ -13,3 +13,13 @@ Sample Input
 4
 Output
 1 2 3 4
+
+
+ANS:
+size = int(input())
+elements = []
+
+for _ in range(size):
+    elements.append(int(input()))
+
+print(' '.join(map(str, elements)))
